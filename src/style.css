@@ -148,6 +148,7 @@ h2{
 }
 .timeline-head{
   font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
 .timeline-body{
   padding-left: 1.5em;
