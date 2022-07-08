@@ -116,7 +116,13 @@ nav .menu{
   background: white;
   color: black;
 }
-
+h2{
+  padding-top: 1em;
+  padding-left: 1.5em;
+  color: #1c142c;
+  font-family: 'Poppins',sans-serif;
+  font-size: 50px;
+}
 .timeline {
   margin: 50px auto;
   font-family: 'Poppins',sans-serif;
@@ -137,7 +143,7 @@ nav .menu{
   transform: translateX(-265%);
   width: 15px;
   height: 15px;
-  background: #000000;
+  background: #1c142c;
   border-radius: 30%;
 }
 .timeline-head{
