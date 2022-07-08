@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -54,7 +55,7 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url('img3.jpg')no-repeat;
+  background: url('background.jpg')no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -115,6 +116,38 @@ nav .menu{
   background: white;
   color: black;
 }
+
+.timeline {
+  margin: 50px auto;
+  font-family: 'Poppins',sans-serif;
+  width: 80%;
+  color: #000000;
+  border-left: 5px solid black;
+  padding: 0 20px 0 30px;
+}
+.component{
+  padding-bottom: 10px;
+}
+.timeline-date{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+.point{
+  transform: translateX(-265%);
+  width: 15px;
+  height: 15px;
+  background: #923636;
+  border-radius: 30%;
+}
+.timeline-head{
+  font-family: 'Courier New', Courier, monospace;
+}
+.timeline-body{
+  padding-left: 1.5em;
+  font-weight: 300;
+}
+
 @keyframes drop-in {
   from {
    opacity: 0;
