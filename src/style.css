@@ -123,6 +123,9 @@ h2{
   font-family: 'Poppins',sans-serif;
   font-size: 50px;
 }
+.photo{
+  float: right;
+}
 .timeline {
   margin: 50px auto;
   font-family: 'Poppins',sans-serif;
