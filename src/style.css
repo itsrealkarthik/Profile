@@ -10,6 +10,9 @@
   color: #000;
   background: #fff;
 }
+html{
+  scroll-behavior: smooth;
+}
 nav{
   position: fixed;
   background-color: transparent;
